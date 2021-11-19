@@ -37,7 +37,7 @@ export function drawChromeBoiAtCoords(x, y) {
     img = def
   }
   
-  ctx.drawImage(img, x - cX - 50, y - cY - 80, sizeX, sizeY)
+  ctx.drawImage(img, x - cX, y - cY, sizeX, sizeY)
 }
 
 export function toggleCycling() {
